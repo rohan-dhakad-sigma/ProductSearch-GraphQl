@@ -1,0 +1,44 @@
+{
+  products(
+    search: "test"
+    filter: {price: {from:"120" to:"130", from:"100" to:"110"} }
+    pageSize: 20
+    currentPage: 1
+    sort: {name:ASC}
+  ) {
+    aggregations {
+      attribute_code
+      count
+      label
+      options {
+        label
+        value
+      }
+      position
+    }
+    filters {
+      filter_items_count
+      name
+      request_var
+    }
+    items {
+      id
+      name
+      sku
+      special_price
+    }
+    page_info {
+      current_page
+      page_size
+      total_pages
+    }
+    sort_fields {
+      default
+      options {
+        label
+        value
+      }
+    }
+    total_count
+  }
+}

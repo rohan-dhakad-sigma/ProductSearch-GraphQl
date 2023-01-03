@@ -1,0 +1,10 @@
+Hi [~krishna.shingadiya@sigmainfo.net],
+*Please check below comment & change accordingly:*
+
+1 Sort by Best Match - Its graphQl is working as expected, Need to add sub-fields for arguments of query ProductSearch on frontend.
+[^Best_Match.png]
+2 Sort by Position- Its graphQl is working as expected, Need to add sub-fields for arguments of query ProductSearch on frontend.
+[^Position.png]
+3 Multi Price Range issue- By default Magento doesn't provide multiple price range selection, so we can replace checkbox with radio buttons under Price attribute on PLP.
+
+CC:[~magesh.r@sigmainfo.net]
